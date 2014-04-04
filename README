@@ -1,0 +1,10 @@
+This repository is an application of what I learned from the "Web Application Architectures" course's first few videos.
+
+It specifically illustrates how blogs are made applying the following ruby on rails commands:
+
+1. rails new blog  
+		=>for creating a new project called "blog"
+2. rails generate scaffold post title:string body:text
+		=>for generating the MVC components needed for posts
+3. rails generate scaffold comment post_id:integer body:text
+		=>for generating the MVC components for the comments with an integer id to connect it to a particular post
